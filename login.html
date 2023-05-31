@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário de Login</title>
+  <style>
+    /* Estilos CSS para o formulário */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 300px;
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .container h2 {
+      text-align: center;
+      color: #ff99cc;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Formulário de Login</h2>
+    <form>
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username">
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password">
+
+      <input type="submit" value="Entrar">
+    </form>
+  </div>
+</body>
+</html>
